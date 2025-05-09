@@ -89,7 +89,7 @@ function App() {
     } else if (gameStatus === 'draw') {
       return "It's a draw!";
     } else {
-      return `Next player: ${xIsNext ? 'X' : 'O'}`;
+      return `Next player: ${xIsNext ? 'monish raj' : 'madan gowda'}`;
     }
   };
 
