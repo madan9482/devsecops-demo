@@ -29,8 +29,8 @@ const GameHistory: React.FC<GameHistoryProps> = ({ history }) => {
 
   // Get appropriate color class based on winner
   const getResultColorClass = (winner: string | null) => {
-    if (winner === 'X') return 'text-indigo-600';
-    if (winner === 'O') return 'text-purple-600';
+    if (winner === 'monish raj') return 'text-indigo-600';
+    if (winner === 'madan gowda ') return 'text-purple-600';
     return 'text-gray-600';
   };
 
